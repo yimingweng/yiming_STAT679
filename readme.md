@@ -1,4 +1,4 @@
-# Course notes for STAT7679
+# Course notes for STAT679
 This Repo contains course notes and other useful learning materials
 
 ## Getting Started
