@@ -11,11 +11,11 @@ How to do some work with git?
 - Go into readme.md to add some infomation about "yiming_STAT679"
 - Add readme.md to stage<br/>  `add readme.md`
 - Check the status that readme.md has been added<br/>  `git status`
-- Shoulf work, then commit it  `git commit readmel.md -m "first commit, readme.md only"`
+- Should work, then commit it<br/>  `git commit readmel.md -m "first commit, readme.md only"`
 - Check the status again<br/>  `git status`
-- Ok now, build the connection between local folder "STAT679"  and repo "yiming_STAT679"  `git remote add origin git@github.com:yimingweng/yiming_STAT679.git`
+- Ok now, build the connection between local folder "STAT679"  and repo "yiming_STAT679"<br/>  `git remote add origin git@github.com:yimingweng/yiming_STAT679.git`
 - Note that the "git@git..." is the SSH of repo "yiming_STAT679"
-- Let's verify the connection:  `git remote -v`
+- Let's verify the connection:<br/>  `git remote -v`
 - Ok, let's upload the current modification to github<br/>  `git push --set-upstream origin master`
 - Note that this is the first push, for the later push, just type:<br/>  `git push`
 - Go to github, reload the webpage, and see what happen
